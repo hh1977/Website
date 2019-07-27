@@ -1,76 +1,37 @@
 
+### 一、首页
+##### 效果图（图片经压缩，模糊请忽略）
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32be5595a1b52?w=850&h=480&f=gif&s=5197119)
+##### 实现功能：
+- ###### 导航栏随滚动高度背景色变化；
+- ###### 轮播图文字下坠效果（轮播图采用ElementUI走马灯插件）；
+- ###### 图片、文字等trasition过渡效果；
+- ###### 缓慢回到顶部效果；
+### 二、产品中心
+#### 1、白光划过效果（鼠标放logo上时显示）
 
-# vuejs-admin（基于eggjs、vuejs、mqtt开发的设备管理系统）
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32dc2dfe9934b?w=1354&h=659&f=gif&s=2849800)
+#### 2、①分类吸顶效果；②按钮特效；③插入、移除节点效果；④图片hover效。
 
-服务端接口地址：https://github.com/caiya/vuejs-admin-server
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32e10ad31fe2e?w=1354&h=659&f=gif&s=4768521)
+### 三、产品详情
+##### &nbsp;&nbsp;没什么好说，直接上图
 
-> * 用户模块（用户管理）
-> * 设备模块（设备管理、设备实时监控、设备参数记录、设备类别管理、参数管理等）
-> * 授权模块（引入OAuth2.0授权服务，方便将接口以OAuth提供第三方）
-> * 消息模块（用户申请帮助消息、设备参数告警消息）
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32e62a22e158a?w=1354&h=659&f=gif&s=1905175)
+### 四、404页面
+##### &nbsp;&nbsp;参考 [kickpush](https://kickpush.co/) 网站，效果图：
 
-## 技术栈
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32ea3b932ee8e?w=1354&h=659&f=gif&s=1371598)
+### 五、500页面
+##### &nbsp;&nbsp;参考 [zcool](https://www.zcool.com.cn/work/ZMTQ3ODg1MDg=.html) 网站，效果图：
 
-关键字
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32ed70add1c9e?w=1354&h=659&f=gif&s=97179)
+### 六、Loading动画
+##### &nbsp;&nbsp;采用经典的吃豆豆loading，另外安利一个不错的loading效果合集文章 [点这里](https://www.jianshu.com/p/6ac3e3e12d61)
 
-> * 前端：vuejs、vue-router、vuex、axios、element-ui、iconfont、mqttjs
-> * 后端：eggjs、mysql、OAuth2.0、restful、nginx、mqtt、jwt（负责前端所有消息推送&设备实时参数接收）
-
-## 目前进展
-
-已完成
-
-> * 用户登录、退出
-> * 用户模块：用户列表（带分页）、新增、删除、编辑、头像上传等
-> * 个人资料编辑设置
-> * 设备模块：设备列表（带分页）、新增、删除、编辑等
-> * 设备实时参数图表展现
-
-TODO
-
-> * 设备参数告警、参数管理等
-> * OAuth2授权管理模块
-> * 消息管理模块
-
-## 构建
-
-``` bash
-# 安装依赖
-npm install
-
-# 测试运行
-npm run dev
-
-# 构建发布包
-npm run build
-
-# 构建并导出report
-npm run build --report
-```
-
-## 测试账号
-
-caiya928@aliyun.com/admin
-
-ps: 大家别乱搞啊，要不服务就关停了
-
-## 效果图
-
-![登录](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-login.png)
-
-![主页（登录后）](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-main.png)
-
-![用户列表页](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-users.png)
-
-![用户新增&编辑](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-user-add.png)
-
-![设备列表](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-devices.png)
-
-![设备新增&编辑](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-device-edit.png)
-
-![设备类型](https://raw.githubusercontent.com/caiya/imgs/2a33e9a186536903ac75bcae5cffb9274876462f/dev-devtypes.png)
-
-![设备监控](https://raw.githubusercontent.com/caiya/imgs/41f4765c49f7f1f93fed35b3a2099c8e16f1ba93/s-11.png)
-
-![实时展现](https://raw.githubusercontent.com/caiya/imgs/41f4765c49f7f1f93fed35b3a2099c8e16f1ba93/s-22.png)
-
+![](https://user-gold-cdn.xitu.io/2019/7/27/16c32f25617cd247?w=1354&h=659&f=gif&s=1429623)
+### 结语
+- ##### 采用 vuejs-admin 模板开发
+- ##### 技术栈：vuejs、vue-router、vuex、axios、element-ui、animate.css
+- ##### 个人推荐后台采用 wordpress 集成，使用 WordPress REST API 接入
+<font size=3 color=red>&nbsp;&nbsp;&nbsp;&nbsp;个人项目已上传至 GitHub，觉得不错给个 star 吧，地址：[点击获取](https://github.com/GodofRabbit/Website)</font>
