@@ -34,4 +34,4 @@
 - ##### 采用 vuejs-admin 模板开发
 - ##### 技术栈：vuejs、vue-router、vuex、axios、element-ui、animate.css
 - ##### 个人推荐后台采用 wordpress 集成，使用 WordPress REST API 接入
-<font size=3 color=red>&nbsp;&nbsp;&nbsp;&nbsp;个人项目已上传至 GitHub，觉得不错给个 star 吧，地址：[点击获取](https://github.com/GodofRabbit/Website)</font>
+
